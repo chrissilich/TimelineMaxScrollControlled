@@ -1,0 +1,43 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #ccc;
+  height: 10000px; }
+
+.progressbar-holder {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0; }
+
+.progressbar {
+  width: 0%;
+  height: 20vh; }
+  .progressbar.progressbar1 {
+    background-color: red; }
+  .progressbar.progressbar2 {
+    background-color: orange; }
+  .progressbar.progressbar3 {
+    background-color: yellow; }
+  .progressbar.progressbar4 {
+    background-color: green; }
+  .progressbar.progressbar5 {
+    background-color: blue; }
+
+/*# sourceMappingURL=main.css.map */
